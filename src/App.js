@@ -1,6 +1,7 @@
 import react from 'react';
 import styled from 'styled-components';
 import CardSection from './components/CardSection';
+import ChartSection from './components/ChartSection';
 import Header from './components/Header';
 import {OuterLayout} from './styles/Layout';
 
@@ -11,6 +12,7 @@ function App() {
       <OuterLayout>
         <MainStyled>
           <CardSection/>
+          <ChartSection/>
         </MainStyled>
       </OuterLayout>
             
