@@ -2,6 +2,7 @@ import react from 'react';
 import styled from 'styled-components';
 import CardSection from './components/CardSection';
 import ChartSection from './components/ChartSection';
+import FAQSection from './components/FAQSection';
 import Header from './components/Header';
 import MessagingSection from './components/MessagingSection';
 import PaymentSection from './components/PaymentSection';
@@ -17,6 +18,7 @@ function App() {
           <ChartSection/>
           <MessagingSection/>
           <PaymentSection/>
+          <FAQSection/>
         </MainStyled>
       </OuterLayout>
             
